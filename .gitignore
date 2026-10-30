@@ -1,0 +1,44 @@
+# Local environment files and secrets
+/.env
+/.env.*
+!/.env.example
+
+# Maven build output
+/target/
+.mvn/wrapper/maven-wrapper.jar
+/build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Generated starter documentation
+HELP.md
+
+# Eclipse / Spring Tool Suite
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# VS Code
+.vscode/
+
+# Logs and operating-system metadata
+*.log
+.DS_Store
+Thumbs.db
